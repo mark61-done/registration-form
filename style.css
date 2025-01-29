@@ -1,19 +1,55 @@
 *{
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
 .btn{
     margin-left: 55rem;
     margin-top: 30px;
+    display: flex;
+    width: 5rem;
+    height: 5vh;
+    gap: 1rem;
+    background-color: transparent;
 }
 .form{
     align-items: center;
     text-align: center;
+}
+h5{
+    margin-right: 6.5rem;
 }
 .or{
     align-items: center;
     text-align: center;
 }
 button{
-    box-shadow: 2px 2px 5px black;
     cursor: pointer;
+}
+.loggin{
+    margin-left: 8rem;
+    width: 10rem;
+    height: 6vh;
+}
+.password{
+    width: 10rem;
+    height: 6vh;
+}
+.form-input{
+    width: 10rem;
+    height: 6vh;
+}
+.btn0{
+    margin-left: 7rem;
+}
+.btn1{
+    width: 10rem;
+    height: 6vh;
+}
+.btn2{
+    width: 10rem;
+    height: 6vh;
+}
+p{
+    font-size: smaller;
 }
